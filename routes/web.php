@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('beranda');
+});
+
+Route::get('/berita', function () {
+    return view('berita');
+});
+
+Route::get('/homestay', function () {
+    return view('homestay');
+});
+
+Route::get('/paket', function () {
+    return view('paket');
+});
+
+Route::get('/profile', function () {
+    return view('profile');
+});
+
+Route::get('/umkm', function () {
+    return view('umkm');
 });
