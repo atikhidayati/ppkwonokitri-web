@@ -17,22 +17,14 @@ Route::get('/', function () {
     return view('beranda');
 });
 
-Route::get('/berita', function () {
-    return view('berita');
+Route::get('/informasi', function () {
+    return view('informasi');
 });
 
-Route::get('/homestay', function () {
-    return view('homestay');
+Route::get('/kontak', function () {
+    return view('contact');
 });
 
-Route::get('/paket', function () {
-    return view('paket');
-});
-
-Route::get('/profile', function () {
-    return view('profile');
-});
-
-Route::get('/umkm', function () {
-    return view('umkm');
+Route::get('/pembatalan', function () {
+    return view('pembatalan');
 });
